@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-09T05:32:10.430Z",
+  "tests": {
+    "files": 33,
+    "passed": 321
+  },
+  "adr": {
+    "count": 7
+  },
+  "depcruise": {
+    "modules": 151,
+    "dependencies": 462,
+    "violations": 0
+  }
+}
