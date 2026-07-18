@@ -20,6 +20,14 @@ export const metadata: Metadata = {
   },
   description:
     "個人開発者向けのプロダクトプラットフォーム。ゲーム素材（アイコン864種・立ち絵）と、AIエージェント前提のSaaS Boilerplateを販売しています。",
+  openGraph: {
+    siteName: "Sakigake (魁)",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
