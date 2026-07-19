@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import {
+  GAME_URL,
   ICON_BUNDLES,
   ICON_PACKS,
   ICON_SAMPLER,
@@ -74,6 +75,22 @@ export default function AssetsPageEn() {
             </a>
             。
           </p>
+        </section>
+
+        {/* Free game made with these icons (live demo funnel) */}
+        <section className="mx-auto max-w-6xl px-4 pt-8 sm:px-6">
+          <a
+            href={GAME_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-lg border border-primary/40 bg-secondary/40 px-5 py-4 text-center text-sm transition-colors hover:bg-secondary/60 sm:text-base"
+          >
+            🎮 Play <span className="font-medium">Icon Alchemy</span>, a free browser
+            game built entirely with these icons —
+            <span className="ml-1 underline underline-offset-4">
+              see the assets in action
+            </span>
+          </a>
         </section>
 
         {/* Free sampler */}

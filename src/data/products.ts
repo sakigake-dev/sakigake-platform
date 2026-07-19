@@ -30,6 +30,8 @@ const i = (slug: string) => `https://takepon7.itch.io/${slug}`;
 export const BOOTH_SHOP_URL = "https://hitori-dougu.booth.pm/";
 export const ITCH_SHOP_URL = "https://takepon7.itch.io/";
 export const BOILERPLATE_BOOTH_URL = b(8537679);
+/** 素材で作った無料ブラウザゲーム(素材の実演デモ兼導線)。 */
+export const GAME_URL = "https://takepon7.itch.io/icon-alchemy";
 
 export const ICON_PACKS: IconPack[] = [
   {
